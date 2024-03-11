@@ -1,0 +1,18 @@
+.episode-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    margin-top: 50px;
+}
+
+.episode-card h3 {
+    margin-top: 0;
+}
+.episode-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}

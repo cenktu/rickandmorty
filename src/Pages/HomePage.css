@@ -1,0 +1,39 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page h1 {
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+
+.home-page .pagination {
+    margin-top: 20px;
+}
+
+.home-page .pagination li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.home-page .pagination li a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+
+.home-page .pagination li.active a {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.home-page .pagination li.disabled a {
+    pointer-events: none;
+    background-color: #ddd;
+    border-color: #ddd;
+    color: #999;
+}

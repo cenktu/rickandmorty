@@ -1,0 +1,9 @@
+.episode-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.episode-list-link{
+    color: black;
+}
